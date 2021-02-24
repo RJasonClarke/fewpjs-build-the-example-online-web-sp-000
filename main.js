@@ -7,6 +7,10 @@ const FULL_HEART = '♥'
 const errorDiv = document.getElementById('modal');
 const likes = document.getElementsByClassName('like');
 
+function hideError() {
+  errorDiv.className = 'hidden';
+}
+
 function success(msg, like) {
   if (msg === 'Pretend remote server notified of action!') {
     like.children[0].innerHTML = FULL_HEART;
