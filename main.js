@@ -4,7 +4,8 @@ const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
 
-
+const errorDiv = document.getElementById('modal');
+const likes = document.getElementsByClassName('like');
 
 
 //------------------------------------------------------------------------------
